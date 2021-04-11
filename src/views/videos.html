@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <%- include ('partials/head.html') %>
+</head>
+
+<body>
+    <div class="wrapper">
+        <!-- Header Start -->
+        <%- include ('partials/header.html') %>
+        <!-- Header End -->
+
+
+        <!-- Page Header Start -->
+        <div class="page-header">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <h2>Videos</h2>
+                    </div>
+                    <div class="col-12">
+                        <p style="color:#FFF;">En esta sección encontraras videos recomendados para reforzar tu
+                            aprendizaje</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Page Header End -->
+
+        <!--Video Start-->
+        <div class="about">
+            <div class="container-fluid">
+                <div class="row align-items-center">
+                    <div class="col-md-6">
+                        <div id="video-section">
+                            <div class="youtube-player">
+                                <iframe width="560" height="315" src="https://www.youtube.com/embed/e025e3Z0rjA"
+                                    title="YouTube video player" frameborder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                    allowfullscreen></iframe>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <h2 class="section-title">Gramática Español: Los adverbios</h2>
+                        <p>
+                            En este video encuentras una lección de español muy completa donde vas a aprender un poco
+                            más sobre la gramática del idioma. En esta lección te explico qué son y cuáles son las
+                            categorías gramaticales en Español. También profundizamos en la definición y tipos de
+                            adverbios y al final hacemos un ejercicio para poner en práctica lo que aprendimos.
+                        </p>
+                        <p>
+                            La gramática en español a veces puede causarnos dolores de cabeza, pero con lecciones como
+                            esta vas a ver que todo es más fácil y entiendes claramente cuál es el papel de cada palabra
+                            en una oración.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Video End -->
+
+        <!-- Video Start -->
+        <div class="about">
+            <div class="container-fluid">
+                <div class="row align-items-center">
+                    <div class="col-md-6">
+                        <div id="video-section">
+                            <div class="youtube-player">
+                                <iframe width="560" height="315" src="https://www.youtube.com/embed/zXxMsDv_4yQ"
+                                    title="YouTube video player" frameborder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                    allowfullscreen></iframe>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <h2 class="section-title">Conjugar verbos en presente del subjuntivo</h2>
+                        <p>
+                            La conjugación en español es uno de los temas que más se nos dificultan a todos, pero la
+                            verdad es que es un tema mucho más fácil de lo que te imaginas.
+                            En este video te explico cómo y cuándo usar el subjuntivo en español.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Video End -->
+
+        <!--Start Video -->
+        <!-- <div class="about">
+            <div class="container-fluid">
+                <div class="row align-items-center">
+                    <div class="col-md-6">
+                        <div id="video-section">
+                            <div class="youtube-player" data-id="jssO8-5qmag"></div>
+
+                            <script>
+                                document.addEventListener("DOMContentLoaded",
+                                    function () {
+                                        var div, n,
+                                            v = document.getElementsByClassName("youtube-player");
+                                        for (n = 0; n < v.length; n++) {
+                                            div = document.createElement("div");
+                                            div.setAttribute("data-id", v[n].dataset.id);
+                                            div.innerHTML = labnolThumb(v[n].dataset.id);
+                                            div.onclick = labnolIframe;
+                                            v[n].appendChild(div);
+                                        }
+                                    });
+
+                                function labnolThumb(id) {
+                                    var thumb = '<img src="img/cover_video_1.webp">',
+                                        play = '<div class="play"></div>';
+                                    return thumb.replace("ID", id) + play;
+                                }
+
+                                function labnolIframe() {
+                                    var iframe = document.createElement("iframe");
+                                    var embed = "https://www.youtube.com/embed/e025e3Z0rjA";
+                                    iframe.setAttribute("src", embed.replace("ID", this.dataset.id));
+                                    iframe.setAttribute("frameborder", "0");
+                                    iframe.setAttribute("allowfullscreen", "1");
+                                    this.parentNode.replaceChild(iframe, this);
+                                }
+                            </script>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <h2 class="section-title">Gramática en Español: Los adverbios</h2>
+                        <p>
+                            En este video encuentras una lección de español muy completa donde vas a aprender un poco
+                            más sobre la gramática del idioma. En esta lección te explico qué son y cuáles son las
+                            categorías gramaticales en Español. También profundizamos en la definición y tipos de
+                            adverbios y al final hacemos un ejercicio para poner en práctica lo que aprendimos.
+                        </p>
+                        <p>
+                            La gramática en español a veces puede causarnos dolores de cabeza, pero con lecciones como
+                            esta vas a ver que todo es más fácil y entiendes claramente cuál es el papel de cada palabra
+                            en una oración.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div> -->
+        <!--End Video -->
+
+
+        <!-- About Start -->
+        <!-- <div class="about">
+                <div class="container-fluid">
+                    <div class="row align-items-center">
+                        <div class="col-md-6">
+                            <img src="img/poster.jpg" alt="Image">
+                        </div>
+                        <div class="col-md-6">
+                            <h2 class="section-title">Learn About Us</h2>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec pretium mi. Curabitur facilisis ornare velit non vulputate. Aliquam metus tortor, auctor id gravida condimentum, viverra quis sem. Curabitur non nisl nec nisi scelerisque maximus. Aenean consectetur convallis porttitor. Aliquam interdum at lacus non blandit.
+                            </p>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec pretium mi. Curabitur facilisis ornare velit non vulputate. Aliquam metus tortor, auctor id gravida condimentum, viverra quis sem. Curabitur non nisl nec nisi scelerisque maximus. Aenean consectetur convallis porttitor. Aliquam interdum at lacus non blandit.
+                            </p>
+                            <a class="btn" href="">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+            </div> -->
+        <!-- About End -->
+
+
+        <!-- Story Start -->
+        <!-- <div class="story">
+                <div class="container-fluid">
+                    <div class="section-header">
+                        <h2>Our Story</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec pretium ornare velit non</p>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="story-container">
+                                <div class="story-end">
+                                    <p>Now</p>
+                                </div>
+                                <div class="story-continue">
+
+                                    <div class="row story-right">
+                                        <div class="col-md-6">
+                                            <p class="story-date">
+                                                01 Jun 2020
+                                            </p>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="story-box">
+                                                <div class="story-icon">
+                                                    <i class="fa fa-gift"></i>
+                                                </div>
+                                                <div class="story-text">
+                                                    <h3>Lorem ipsum dolor</h3>
+                                                    <p>Lorem ipsum dolor sit amet elit ornare velit non</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="row story-left">
+                                        <div class="col-md-6 d-md-none d-block">
+                                            <p class="story-date">
+                                                01 Jan 2020
+                                            </p>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="story-box">
+                                                <div class="story-icon d-md-none d-block">
+                                                    <i class="fa fa-business-time"></i>
+                                                </div>
+                                                <div class="story-text">
+                                                    <h3>Lorem ipsum dolor</h3>
+                                                    <p>Lorem ipsum dolor sit amet elit ornare velit non</p>
+                                                </div>
+                                                <div class="story-icon d-md-block d-none">
+                                                    <i class="fa fa-business-time"></i>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6 d-md-block d-none">
+                                            <p class="story-date">
+                                                01 Jan 2020
+                                            </p>
+                                        </div>
+                                    </div>
+
+                                    <div class="row">
+                                        <div class="col-12">
+                                            <div class="story-year">
+                                                <p>2020</p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="row story-right">
+                                        <div class="col-md-6">
+                                            <p class="story-date">
+                                                01 Dec 2019
+                                            </p>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="story-box">
+                                                <div class="story-icon">
+                                                    <i class="fa fa-briefcase"></i>
+                                                </div>
+                                                <div class="story-text">
+                                                    <h3>Lorem ipsum dolor</h3>
+                                                    <p>Lorem ipsum dolor sit amet elit ornare velit non</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="row story-left">
+                                        <div class="col-md-6 d-md-none d-block">
+                                            <p class="story-date">
+                                                01 Sep  2019
+                                            </p>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="story-box">
+                                                <div class="story-icon d-md-none d-block">
+                                                    <i class="fa fa-cogs"></i>
+                                                </div>
+                                                <div class="story-text">
+                                                    <h3>Lorem ipsum dolor</h3>
+                                                    <p>Lorem ipsum dolor sit amet elit ornare velit non</p>
+                                                </div>
+                                                <div class="story-icon d-md-block d-none">
+                                                    <i class="fa fa-cogs"></i>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6 d-md-block d-none">
+                                            <p class="story-date">
+                                                01 Sep  2019
+                                            </p>
+                                        </div>
+                                    </div>
+
+                                    <div class="row story-right">
+                                        <div class="col-md-6">
+                                            <p class="story-date">
+                                                01 Jun 2019
+                                            </p>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="story-box">
+                                                <div class="story-icon">
+                                                    <i class="fa fa-running"></i>
+                                                </div>
+                                                <div class="story-text">
+                                                    <h3>Lorem ipsum dolor</h3>
+                                                    <p>Lorem ipsum dolor sit amet elit ornare velit non</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="row story-left">
+                                        <div class="col-md-6 d-md-none d-block">
+                                            <p class="story-date">
+                                                01 Mar 2019
+                                            </p>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="story-box">
+                                                <div class="story-icon d-md-none d-block">
+                                                    <i class="fa fa-home"></i>
+                                                </div>
+                                                <div class="story-text">
+                                                    <h3>Lorem ipsum dolor</h3>
+                                                    <p>Lorem ipsum dolor sit amet elit ornare velit non</p>
+                                                </div>
+                                                <div class="story-icon d-md-block d-none">
+                                                    <i class="fa fa-home"></i>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6 d-md-block d-none">
+                                            <p class="story-date">
+                                                01 Mar 2019
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="story-start">
+                                    <p>Launch</p>
+                                </div>
+                                <div class="story-launch">
+                                    <div class="story-box">
+                                        <div class="story-text">
+                                            <h3>Launched our company on 01 Jan 2019</h3>
+                                            <p>Lorem ipsum dolor sit amet</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div> -->
+        <!-- Story End -->
+
+
+        <!-- Team Start -->
+        <div class="team">
+            <div class="container-fluid">
+                <div class="section-header">
+                    <h2>Our Team</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec pretium ornare velit non
+                    </p>
+                </div>
+                <div class="row">
+                    <div class="col-sm-6 col-lg-3 ">
+                        <div class="team-item">
+                            <div class="team-img">
+                                <img src="img/team-1.jpg" alt="Team">
+                            </div>
+                            <div class="team-text">
+                                <h3>Member Name</h3>
+                                <p>Designation</p>
+                            </div>
+                            <div class="team-social">
+                                <a href=""><i class="fab fa-facebook-f"></i></a>
+                                <a href=""><i class="fab fa-twitter"></i></a>
+                                <a href=""><i class="fab fa-linkedin-in"></i></a>
+                                <a href=""><i class="fab fa-pinterest"></i></a>
+                                <a href=""><i class="fab fa-youtube"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-lg-3 ">
+                        <div class="team-item">
+                            <div class="team-img">
+                                <img src="img/team-2.jpg" alt="Team">
+                            </div>
+                            <div class="team-text">
+                                <h3>Member Name</h3>
+                                <p>Designation</p>
+                            </div>
+                            <div class="team-social">
+                                <a href=""><i class="fab fa-facebook-f"></i></a>
+                                <a href=""><i class="fab fa-twitter"></i></a>
+                                <a href=""><i class="fab fa-linkedin-in"></i></a>
+                                <a href=""><i class="fab fa-pinterest"></i></a>
+                                <a href=""><i class="fab fa-youtube"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-lg-3 ">
+                        <div class="team-item">
+                            <div class="team-img">
+                                <img src="img/team-3.jpg" alt="Team">
+                            </div>
+                            <div class="team-text">
+                                <h3>Member Name</h3>
+                                <p>Designation</p>
+                            </div>
+                            <div class="team-social">
+                                <a href=""><i class="fab fa-facebook-f"></i></a>
+                                <a href=""><i class="fab fa-twitter"></i></a>
+                                <a href=""><i class="fab fa-linkedin-in"></i></a>
+                                <a href=""><i class="fab fa-pinterest"></i></a>
+                                <a href=""><i class="fab fa-youtube"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-lg-3 ">
+                        <div class="team-item">
+                            <div class="team-img">
+                                <img src="img/team-4.jpg" alt="Team">
+                            </div>
+                            <div class="team-text">
+                                <h3>Member Name</h3>
+                                <p>Designation</p>
+                            </div>
+                            <div class="team-social">
+                                <a href=""><i class="fab fa-facebook-f"></i></a>
+                                <a href=""><i class="fab fa-twitter"></i></a>
+                                <a href=""><i class="fab fa-linkedin-in"></i></a>
+                                <a href=""><i class="fab fa-pinterest"></i></a>
+                                <a href=""><i class="fab fa-youtube"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Team End -->
+
+
+        <!-- Call to Action Start -->
+        <div class="call-to-action">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-md-9">
+                        <h2>¿Encontraste el video que buscabas?</h2>
+                        <p>
+                            Si no encontraste el video que buscabas puedes sugerirlo para agregarlo a esta sección
+                        </p>
+                    </div>
+                    <div class="col-md-3">
+                        <a class="btn" href="pendient">Sugerir Video</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Call to Action End -->
+
+
+        <!-- Footer Start -->
+        <%- include ('partials/footer.html') %>
+        <!-- Footer End -->
+    </div>
+
+    <!-- JavaScript-->
+    <%- include ('partials/javascript.html') %>
+</body>
+
+</html>
